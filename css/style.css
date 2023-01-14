@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;  ;
+}
+
+
+body{
+    background: #eaeaea;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    margin: 50px 0;
+    width: 850px;
+    height: 135px;
+    background: white;
+    padding: 20px;
+    
+    
+}
+
+h3{
+    margin: 10px;
+    font-size: 12px;
+}
+
+
+
+
+
+.post_fon{
+    position: relative;
+}
+
+.post__fon_input{
+    margin:30px 0;
+    border:none;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.post__fon_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(-180%);
+    right: 26px;
+    gap: 0 5px;
+    
+}
+
+
+h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 35px;
+    
+}
+
+.link{
+    text-decoration: none;
+}
+
+.item{
+    width: 850px;
+    height: 285px;
+    background: white;
+    margin-top: 20px;
+}
+
+.item_comans{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    
+}
+
+.items_comans{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: black;
+    
+    
+}
+
+.item_text{
+    
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.item_photo{
+    margin: 15px 30px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 10px;
+}
+
+.item_title1{
+    margin: 3px 0;
+    font-weight: 900;
+}
+
+.item_title2{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.item_text2{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+.item_text_link{
+    text-align: left;
+    text-decoration: none;
+    margin-top:10px ;
+}
+
+.item_header2{
+    text-align: start;
+    margin-left: 30px;
+}
+
+.photo_title{
+    display: flex;
+    align-items: baseline;
+    
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.icons_img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 15px;
+    gap: 8px;
+}
+
+.icons_img p{
+    font-size: 12px;
+}
+
+.border{
+    border-right: 1px solid rgb(207, 207, 207);
+    width: 3px;
+    height: 48px;
+    margin: 0 30px;
+}
+
+.border2{
+    border-right: 1px solid rgb(207, 207, 207);
+    width: 3px;
+    height: 48px;
+    margin-left: 500px;
+}
+
+.item2{
+    width: 850px;
+    height: 580px;
+    background: white;
+    margin-top: 20px;
+}
+
+
+
+.huge_img{
+    margin: 30px;
+}
+
